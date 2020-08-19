@@ -26,7 +26,7 @@ struct Esqueleto {
 int main() {
     int n_enemigo;	// Que enemigo toca
     int accion;	// Opcion elegida
-    int zona(20); // Contador de zonas
+    int zona(1); // Contador de zonas
 
     // Valores iniciales del personaje
     pj.vida = 100;
@@ -94,7 +94,7 @@ int main() {
                 cout << "=====================================================\n";
                 n_enemigo = 1+rand()%100;	// Generar numero aleatorio [1,100]
 
-                // 1% chances de que aparezca una Sombra Extraña
+                // 1% chances de que aparezca una Sombra ExtraÃ±a
                 if (n_enemigo == 1) {
                     cout << "\n== TE HAS TOPADO CON UNA SOMBRA EXTRANA ==\n";
                     cout << "\nPierdes la mitad de tus monedas y de tus pociones\n" << endl;
